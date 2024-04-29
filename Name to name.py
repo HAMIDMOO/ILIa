@@ -48,22 +48,3 @@ print(Name_to_Name(Names))
 
 
 
-
-    # should_restart = True  
-    # while should_restart == False:    
-    #     for z in lst and i in range(0, len(lst)-1):
-    #         if i==(len(lst)-1) and p == p:
-    #              if y == z[0] and z not in new_lst :
-    #                 new_lst.append(z)
-    #                 y=z[-1]
-    #                 lst=lst.remove(z)
-    #                 p+=1
-    #              should_restart = True
-    #              break
-            
-    #         elif y == z[0] and z not in new_lst : 
-    #                 new_lst.append(z)
-    #                 y=z[-1]
-    #                 lst=lst.remove(z)
-    #                 p+=1
-    #         else: break
