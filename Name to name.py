@@ -7,12 +7,9 @@ in this script we get the names of the game from players and pour then in a list
 this code sort Names by alphabetical word.
 """
 Names=[]
-x= int(input("enter the number of Names : "))
-for i in range(0, x):
-    Names.append(input("enter the {}th Name : ".format(i+1)).strip())
-Names= sorted(Names)
-
-
+input_string = input()
+Names = input_string.split(", ")
+Names.sort()
 """
 in this function first we create an empty list(final_lst) to acces to biggest sequence of Names.
 then we loop over the Name list to select the first Name then add that to new_lst.
@@ -39,10 +36,8 @@ def Name_to_Name(lst):
             final_lst= new_lst            
     return final_lst
         
-print(Name_to_Name(Names))     
-
-
-
+x=Name_to_Name(Names) 
+print(', '.join(x[0:]))
 
 
 
